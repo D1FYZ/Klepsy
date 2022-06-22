@@ -2,6 +2,7 @@ package com.example.klepsy;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -16,6 +17,8 @@ import android.widget.MediaController;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.IOError;
+import java.io.IOException;
 import java.util.Locale;
 
 public class TimeActivity extends AppCompatActivity {
@@ -63,6 +66,15 @@ public class TimeActivity extends AppCompatActivity {
                 } else {
                     startTimer();
                 }
+            }
+        });
+
+        exit_activity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager manag = getSupportFragmentManager();
+                dialogExit dExit = new dialogExit();
+                dExit.show(manag, "ExitAct");
             }
         });
     }
@@ -122,30 +134,14 @@ public class TimeActivity extends AppCompatActivity {
     }
     @Override
     public void onBackPressed() {
-            
-        }
-    @NonNull
-    @Override
-    public Dialog onCreateDialog(Bundle savedInstanceState) {
-        String title = "Выход";
-        String message = "вы реально хотите выйти";
-        String button1String = "Вкусная пища";
-        String button2String = "Здоровая пища";
-
-        AlertDialog.Builder builder = new AlertDialog.Builder(TimeActivity.this);
-        builder.setTitle(title);  // заголовок
-        builder.setMessage(message); // сообщение
-        builder.setPositiveButton(button1String, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
-
-            }
-        });
-        builder.setNegativeButton(button2String, new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
-            }
-        });
-        builder.setCancelable(true);
-
-        return builder.create();
+        FragmentManager manag = getSupportFragmentManager();
+        dialogExit dExit = new dialogExit();
+        dExit.show(manag, "ExitAct");
     }
+    public void escapeActivity() {
+        pauseTimer();
+
+        finish();
     }
+
+}
