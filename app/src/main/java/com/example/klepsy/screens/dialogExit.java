@@ -1,4 +1,4 @@
-package com.example.klepsy;
+package com.example.klepsy.screens;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

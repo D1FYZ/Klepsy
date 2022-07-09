@@ -1,19 +1,17 @@
-package com.example.klepsy;
+package com.example.klepsy.screens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Switch;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.IOError;
+import com.example.klepsy.R;
 
 public class LobbyAct extends AppCompatActivity {
 

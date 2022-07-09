@@ -5,12 +5,15 @@
       <map>
         <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/font/baloo_bhai.xml" value="0.25104166666666666" />
         <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/font/play.xml" value="0.25104166666666666" />
-        <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/layout/activity_probkich.xml" value="0.5" />
+        <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/layout/activity_probkich.xml" value="0.25" />
+        <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/layout/activity_task.xml" value="0.22" />
         <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/layout/activity_timer.xml" value="0.1408514492753623" />
+        <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/layout/content_main.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/layout/content_tasks.xml" value="0.1" />
         <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/layout/lobby.xml" value="0.33" />
         <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/layout/lobby_activity.xml" value="0.25" />
         <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/layout/start.xml" value="0.1408514492753623" />
-        <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/layout/timer_activity.xml" value="0.1078125" />
+        <entry key="..\:/Users/kruty/AndroidStudioProjects/Klepsy/Klepsy/app/src/main/res/layout/timer_activity.xml" value="0.25" />
       </map>
     </option>
   </component>

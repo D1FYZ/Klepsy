@@ -6,21 +6,25 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:name=".App"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Klepsy">
         <activity
-            android:name=".probkich"
+            android:name=".screens.TaskerActivity"
             android:exported="false" />
         <activity
-            android:name=".TimeActivity"
+            android:name=".screens.probkich"
+            android:exported="false" />
+        <activity
+            android:name=".screens.TimeActivity"
             android:exported="true"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LobbyAct"
+            android:name=".screens.LobbyAct"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".screens.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
