@@ -1,16 +1,14 @@
-package com.example.klepsy.screens;
+package com.example.klepsy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.klepsy.R;
-
-public class TaskerActivity extends AppCompatActivity {
+public class whatIsBeen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tasker);
+        setContentView(R.layout.activity_what_is_been);
     }
 }

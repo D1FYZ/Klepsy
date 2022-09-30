@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.klepsy.R;
+import com.example.klepsy.TaskActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
         settings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(MainActivity.this, TaskActivity.class);
+                startActivity(intent);
             }
         });
     }
